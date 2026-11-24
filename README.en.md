@@ -31,6 +31,12 @@
 </p>
 
 - **Challenge quest** events with a fixed location are shown with a **green flag**.
+
+<p align="center">
+  <img src="docs/images/challenge_naraku_3ds.jpg" width="40%" alt="Real 3DS screen, green flag on the Naraku 1st Observatory map">
+  <br><sub>Naraku 1st Observatory. A green flag marks a challenge quest event (real 3DS).</sub>
+</p>
+
 - Events clustered in the same spot are merged into a single flag.
 - Minor events, such as townspeople's dialogue updates, are not shown.
 
@@ -110,8 +116,8 @@ After installation, the folder should look like this:
 ### Uninstalling
 Delete the five files above to return to the original game. Save data is never touched, so you can add or remove the mod at any time.
 
-### Real hardware (3DS) — ⚠️ not tried
-These are the usual steps for Luma3DS game patching (LayeredFS). **They have not actually been tried on a real 3DS**, so there is no guarantee they work.
+### Real hardware (3DS)
+Apply it with Luma3DS game patching (LayeredFS).
 
 1. You need a 3DS with custom firmware (Luma3DS).
 2. **Hold SELECT while powering on** to open the Luma3DS configuration, enable **Enable game patching**, and save.
@@ -129,8 +135,6 @@ SD:\luma\titles\00040000000F6100\
 ```
 
 4. Start the game. To revert, delete the `00040000000F6100` folder.
-
-If you try it, please report the result in Issues.
 
 ---
 
