@@ -110,14 +110,34 @@ After installation, the folder should look like this:
 ### Uninstalling
 Delete the five files above to return to the original game. Save data is never touched, so you can add or remove the mod at any time.
 
-### Real hardware (3DS)
-It should work with the same layout through Luma3DS game patching (LayeredFS), but it has not been tested on real hardware yet.
+### Real hardware (3DS) — ⚠️ not tried
+These are the usual steps for Luma3DS game patching (LayeredFS). **They have not actually been tried on a real 3DS**, so there is no guarantee they work.
+
+1. You need a 3DS with custom firmware (Luma3DS).
+2. **Hold SELECT while powering on** to open the Luma3DS configuration, enable **Enable game patching**, and save.
+3. Put the files on the SD card as shown below. Unlike the emulator, `code.ips` goes directly in the title folder, without an `exefs` folder.
+
+```
+SD:\luma\titles\00040000000F6100\
+ ├ code.ips
+ └ romfs\
+    ├ map\all\MapNaviTable.tbb
+    ├ mikado\MikadoTable.tbb
+    └ tex\
+       ├ icon.ttd
+       └ stex\icon\automap_icon3.stex
+```
+
+4. Start the game. To revert, delete the `00040000000F6100` folder.
+
+If you try it, please report the result in Issues.
 
 ---
 
 ## Known limitations
 
 - **Verified so far:** tested by actual play up to the main quest 「도청의 악마를 퇴치」 (Defeat the Demon in the Tokyo Metropolitan Government Building). Later parts of the story have not been verified yet.
+- **Green challenge quest flags have not been verified.** They are generated from the game data, but nobody has actually taken those quests to check where the flags appear and when they disappear.
 - The main quest order on the Tokyo field map is inferred automatically from the event data. In some places the order may be off and a flag can appear somewhere unexpected. Please report it if you find one.
 - **Challenge quests** are flagged in green only when the game data gives their event a location. Quests without a destination coordinate, such as "defeat a certain demon" or "deliver an item", are not shown.
 - In buildings with several floors, the flag only appears on the floor where the event is. It is not visible from other floors.
