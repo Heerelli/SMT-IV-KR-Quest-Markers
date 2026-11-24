@@ -54,8 +54,8 @@
 - 이벤트나 퀘스트 목적지가 있는 도시의 입구가 여러 개라면, 입구마다 깃발이 표시됩니다.
 
 <p align="center">
-  <img src="docs/images/tokyo_multi_entrance.png" width="55%" alt="도쿄 필드 신주쿠, 입구가 여러 개인 도시에 깃발이 여러 개 표시된 모습">
-  <br><sub>신주쿠 북쪽. 목적지가 있는 도시의 입구가 여러 개라서 깃발도 여러 개 떠 있습니다.</sub>
+  <img src="docs/images/tokyo_multi_entrance.png" width="55%" alt="도쿄 필드 이케부쿠로, 입구가 여러 개인 도시에 깃발이 여러 개 표시된 모습">
+  <br><sub>이케부쿠로. 목적지가 있는 도시의 입구가 여러 개라서 깃발도 여러 개 떠 있습니다.</sub>
 </p>
 
 ### 3. 미카도국(선택지로 이동하는 마을)에 표시

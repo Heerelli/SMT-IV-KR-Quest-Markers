@@ -54,8 +54,8 @@
 - If a city that holds an event or quest destination has several entrances, every entrance gets a flag.
 
 <p align="center">
-  <img src="docs/images/tokyo_multi_entrance.png" width="55%" alt="Tokyo field, Shinjuku, several flags at a city with several entrances">
-  <br><sub>North of Shinjuku. The destination city has several entrances, so several flags are shown.</sub>
+  <img src="docs/images/tokyo_multi_entrance.png" width="55%" alt="Tokyo field, Ikebukuro, several flags at a city with several entrances">
+  <br><sub>Ikebukuro. The destination city has several entrances, so several flags are shown.</sub>
 </p>
 
 ### 3. Markers in Mikado (the menu-driven town)
