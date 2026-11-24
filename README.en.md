@@ -117,6 +117,7 @@ It should work with the same layout through Luma3DS game patching (LayeredFS), b
 
 ## Known limitations
 
+- **Verified so far:** tested by actual play up to the main quest 「도청의 악마를 퇴치」 (Defeat the Demon in the Tokyo Metropolitan Government Building). Later parts of the story have not been verified yet.
 - The main quest order on the Tokyo field map is inferred automatically from the event data. In some places the order may be off and a flag can appear somewhere unexpected. Please report it if you find one.
 - **Challenge quests** are flagged in green only when the game data gives their event a location. Quests without a destination coordinate, such as "defeat a certain demon" or "deliver an item", are not shown.
 - In buildings with several floors, the flag only appears on the floor where the event is. It is not visible from other floors.
