@@ -81,7 +81,7 @@ In towns where you pick a location from a menu, a symbol is added after the loca
 | Game | Shin Megami Tensei IV (official Korean release) |
 | Product code | CTR-P-AMXK |
 | Title ID | `00040000000F6100` |
-| Tested on | Azahar emulator |
+| Tested on | Azahar emulator, real 3DS (Luma3DS) |
 
 > It does not work with the Japanese or North American releases. The code patch is built against the Korean executable, and the text is Korean.
 
